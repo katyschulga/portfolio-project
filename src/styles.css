@@ -11,3 +11,13 @@ font-family: "Playfair Display", serif;
   font-style: normal;
 }
   */
+
+h1 {
+    font-family: "playfair Display", serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
