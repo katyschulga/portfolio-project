@@ -42,11 +42,47 @@ h2 {
     font-size: 64px;
 }
 
+h4 {
+    font-size: 48px;
+}
+
 p {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     color: var(--dark-neutral-color);
+}
+
+nav {
+    padding: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+    list-style: none;
+    line-height: 42px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--dark-neutral-color);
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+    color: var(--primary-color);
+}
+
+.logo,
+.logo-small {
+    height: 40px;
 }
 
 .hero {
@@ -114,51 +150,43 @@ p {
     font-size: 14px;
 }
 
-.work-inquiry {
-    background: var(--secondary-color);
-    border-radius: 20px;
-    margin: 0 120px;
-    padding: 40px 80px 30px 80px;
+footer {
+    margin: 60px 0;
 }
 
-.work-inquiry h2 {
-    font-size: 48px;
+footer .contact-box {
+    background-color: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
 }
 
-.social-bar p {
+footer .contact-box p {
+    margin: 0;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
     font-size: 24px;
 }
 
-.logo,
-.logo-small {
-    height: 40px;
+footer .email-link:hover {
+    color: var(--primary-color);
 }
 
-nav {
-    padding: 20px;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin-left: 15px;
-    list-style: none;
-    line-height: 42px;
-}
-
-nav a {
-    text-decoration: none;
-    color: var(--dark-neutral-color);
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: 18px;
+    padding: 10px 14px;
+    border-radius: 50%;
     transition: all 100ms ease-in-out;
 }
 
-nav a:hover,
-nav li.active a {
-    color: var(--primary-color);
+footer .social-links a:hover {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 @media (max-width: 990px) {
@@ -187,12 +215,6 @@ nav li.active a {
     .content-container {
         text-align: center;
         padding: 0;
-    }
-
-    .work-inquiry {
-        margin: 0;
-        border-radius: 0;
-        text-align: center;
     }
 
     nav a {
