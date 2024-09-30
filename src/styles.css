@@ -125,6 +125,7 @@ nav li.active a {
 
 .content-container {
     padding: 160px 20px;
+    overflow-x: hidden;
 }
 
 .content-container h1 {
@@ -148,6 +149,7 @@ nav li.active a {
 
 .container p {
     font-size: 14px;
+    overflow-x: hidden;
 }
 
 footer {
